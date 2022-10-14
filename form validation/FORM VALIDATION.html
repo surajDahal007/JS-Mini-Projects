@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> elective practice page</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="this is practice website">
+
+    <link rel="stylesheet" href="format.css">
+
+</head>
+
+<body>
+    <div>
+        <h3>User Registration Form</h3>
+        <form name="reg_form" method="get" action="site.php" onsubmit="return validation()">
+            Name &nbsp; <input type="text" name="fname" /> <br /> <br />
+            Email &nbsp; <input type="email" name="femail" /> <br /><br />
+            Gender <input type="radio" name="gender" /> Male <input type="radio" name="gender" />
+            Female <br /> <br />
+            Phone &nbsp; <input type="number" name="phone" /> <br /> <br />
+            Country
+            <select name="country">
+                <!-- <option value=""> Select</option> -->
+                <option value="Nepal">Nepal</option>
+                <option value="India">India</option>
+                <option value="Bhutan">Bhutan</option>
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="Sri Lanka">Sri Lanka</option>
+                <option value="Maldives">Maldives</option>
+                <option value="Pakistan">Pakistan</option>
+            </select>
+            <br /> <br />
+            Description (Optional) <br />
+            <textarea name="textarea" rows="4" cols="35">
+
+            </textarea>
+            <br />
+            <br />
+            <button type="submit" onclick="alert('information will now go to server')"> Registration</button>
+        </form>
+    </div>
+
+    <script src="validation.js"> </script>
+</body>
+
+</html>
