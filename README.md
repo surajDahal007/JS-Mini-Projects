@@ -1,2 +1,3 @@
 # JS-Mini-Projects
-Each folder contains HTML & JS which is capable of performing specific task.
+
+Each folder contains a javascript project. Feel free to check it out.
