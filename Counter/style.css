@@ -1,0 +1,55 @@
+body{
+    font-size: 50px;
+    margin-top:10%;
+    margin-left: 40%; 
+}
+
+#counter{
+    margin-left:110px;
+    margin-top: 5%;
+}
+
+.decrease{
+    color:white;
+    background: red;
+    padding:10px;
+    border-radius: 10px;
+    border:1px solid white;
+    cursor: pointer;
+}
+
+.decrease:hover{
+    color:red;
+    background: whitesmoke;
+    border:2px solid black;
+}
+
+.increase{
+    color:white;
+    background: green;
+    padding:10px;
+    border-radius: 10px;
+    border:1px solid white;
+    cursor: pointer;
+}
+
+.increase:hover{
+    color:green;
+    background: whitesmoke;
+    border:2px solid black;
+}
+
+.reset{
+    color:white;
+    background: black;
+    padding:10px;
+    border-radius: 10px;
+    border:1px solid white;
+    cursor: pointer;
+}
+
+.reset:hover{
+    color:black;
+    background: whitesmoke;
+    border:2px solid black;
+}
